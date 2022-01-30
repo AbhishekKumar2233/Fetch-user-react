@@ -1,0 +1,29 @@
+* {
+  font-family: "Cutive";
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  position: static;
+  background-color: #ffc300;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px rgb(233, 226, 210);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.user {
+  width: 21em;
+  font-size: 15px;
+  background-image: linear-gradient(
+    140deg,
+    rgba(243, 98, 40, 0.884) 5%,
+    rgb(220, 210, 0) 80%
+  );
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+}
